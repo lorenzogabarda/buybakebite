@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header nav h3 a{
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.7vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar a:hover{
+    color: #dbb2a5;
+}
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 50px;    
+    
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;   
+}
+
+.nav-bar ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none; 
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+}
+.main-container {
+    width: 100%;
+    margin: auto;
+}
+
+.picture {
+    width: 100%;
+    margin: auto;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+    position: relative;
+}
+.heading {
+    display: block;
+    position: absolute;
+    /* top: 100px;
+    left: 0px; */
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+.heading h1 {
+    color: #333;
+    font-weight: 900;
+    
+}
+.heading p {
+    width: 80%;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 24px;
+}
+
+.products {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+#product-heading{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #868683;
+}
+.product-items {
+    position: relative;
+    padding: 25px;
+    margin: 15px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+ .item2  {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+} 
+
+.product-items:hover img{
+    opacity: 0.3;
+}
+
+.product-items h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-items img{
+    border-radius: 8px;
+    width: 330px;
+    height: 330px;
+}
+
+
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
